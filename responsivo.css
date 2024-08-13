@@ -1,0 +1,41 @@
+@media(max-width:425px){
+    .topo .container{flex-direction: column;}
+    .topo-titulo{margin: 10px 0;}
+    .topo-links{width: 100%;border-top: 1px solid #009fa5;justify-content: space-around;}
+}
+
+@media(max-width:768px){
+    .box-visao-geral{height: 300px;}
+    .box-sobre img{display: none;}
+    .box-especialidades{justify-content: center;}
+    .box-especialidade{width: calc(100%/2 - 48px);}
+}
+
+@media (max-width:425px){
+    .box-visao-geral{height: 200px;}
+    .box-visao-geral h1{font-size: 28px;}
+    .box-especialidade{width: 100%;}
+}
+
+/* -------------especialidades------------- */
+
+@media(max-width:768px){
+    .box-tabela-especialista img{
+        display: none;
+    }
+
+    .tabela-especialistas{
+        width: 100%;
+    }
+
+    .box-tabela-especialista{
+        height: auto;
+        justify-content: center;
+    }
+}
+
+@media(max-width:425px){
+    .box-tabela-especialista{
+        padding: 0;
+    }
+}
